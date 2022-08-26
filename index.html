@@ -1,11 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
     <link rel="stylesheet" href="style.css">
     <title>Layout</title>
 </head>
 <body>
+    <section class="introduction">
+<!--        HEADER-->
+        <header class="header">
+            <div class="header__logo">
+                <img src="./assets/icons/logo.png" alt="logo" >
+            </div>
+            <nav class="header__nav nav">
+                <a class="nav__items" href="">Главная</a>
+                <a class="nav__items" href="">Курсы</a>
+                <a class="nav__items" href="">Расписание</a>
+                <a class="nav__items" href="">Преподаватели</a>
+                <a class="nav__items" href="">Рассылка</a>
+                <a class="nav__items" href="">Контакты</a>
+            </nav>
+            <button class="header-button">Зайти в кабинет</button>
+        </header>
+        <div class="promotion">
+<!--            ЗАМЕТКА-->
+            <h1 class="promotion__title">
+                Первый курс</br>
+                по компьютерной сборке
+            </h1>
+            <div class="timer">
+                <div class="timer__count-container">
+                    <p class="timer__count">18</p>
+                    <p class="timer__date">Дней</p>
+                </div>
+                <div class="timer__count-container">
+                    <p class="timer__count">18</p>
+                    <p class="timer__date">Часов</p>
+                </div>
+                <div class="timer__count-container">
+                    <p class="timer__count">18</p>
+                    <p class="timer__date">Минут</p>
+                </div>
+                <div class="timer__count-container">
+                    <p class="timer__count">18</p>
+                    <p class="timer__date">Секунд</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-course">
+            <button class="course-button">Заказать курс</button>
+            <div class="course-info">
+                <div class="course-data course-info__data">
+                    <p class="course-data__query">Учеников всего:</p>
+                    <p class="course-data__count">200</p>
+                </div>
+                <div class="course-data course-info__data">
+                    <p class="course-data__query">Успешно закончили курс:</p>
+                    <p class="course-data__count">190</p>
+                </div>
+            </div>
+            <div class="course-progress">
+                <div class="course-data">
+                    <p class="course-data__query course-progress__data">Заработано учениками:</p>
+                    <p class="course-data__count">400 000₽</p>
+                </div>
 
+<!--                // ЗАМЕТКА-->
+                <div class="course-progress__loader loader">
+                    <div class="loader__scale">
+                        <div class="loader__progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
+
+
+

@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.introduction {
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url("/assets/background/headerBackground.png");
+}
+
+/*HEADER*/
+
+/*ЗАМЕТКА ПАДДИНГ */
+.header {
+    width: 100%;
+    height: 80px;
+    padding: 40px 80px 0;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    width: 40px;
+    height: 40px;
+    flex-grow: 1;
+}
+
+.header__nav {
+    margin-right: 270px;
+}
+
+.nav {
+    width: 745px;
+    height: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__items {
+    text-decoration: none;
+    outline: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.header-button {
+    padding: 10px 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border: none;
+    border-radius: 50px;
+}
+
+/**/
+
+.promotion {
+    width: 100%;
+    height: 748px;
+
+    padding: 188px 668px 218px 312px;
+}
+
+.promotion__title {
+    margin-bottom: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.timer {
+    display: flex;
+}
+
+.timer__count-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+
+    background: #121212;
+}
+
+.timer__count-container + .timer__count-container {
+    margin-left: 30px;
+}
+
+.timer__count {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.timer__date {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.4;
+}
+
+
+.about-course {
+    width: 100%;
+    height: 130px;
+    padding: 0 312px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #121212;
+}
+
+
+.course-button {
+    padding: 10px 30px;
+
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.course-info {
+    /*ЗАМЕТКА */
+    width: 251px;
+
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+}
+
+.course-data {
+    display: flex;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.course-data__query {
+    opacity: 0.4;
+}
+
+.course-info__data {
+    justify-content: space-between;
+}
+
+.course-info__data + .course-info__data {
+    margin-top: 10px;
+}
+
+.course-progress {
+    height: 100%;
+    padding-top: 35px;
+    padding-bottom: 28px;
+}
+
+.course-progress__data {
+    margin-right: 30px;
+}
+
+.course-progress__loader {
+    padding-top: 10px;
+}
+
+.loader__scale {
+    position: relative;
+
+    width: 714px;
+    height: 6px;
+
+    background: #FFFFFF;
+}
+
+.loader__progress {
+    width: 440px;
+    height: 100%;
+
+
+
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+
+.loader__scale::before {
+    position: absolute;
+    top: 11px;
+    left: 0;
+    display: block;
+    content: '0';
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+    opacity: 0.4;
+}
+
+.loader__scale::after {
+    position: absolute;
+    top: 11px;
+    right: 0;
+    display: block;
+    content: '1 000 000₽';
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+    opacity: 0.4;
+}
