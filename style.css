@@ -423,26 +423,26 @@
     align-items: center;
 }
 
-.statistics-graph__graph_full-filled {
+.statistics-graph__full-filling {
     width: 100%;
     height: 100%;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 }
 
-.statistics-graph__graph_75-filled {
+.statistics-graph__75-filling {
     width: 100%;
     height: 75%;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-.statistics-graph__graph_50-filled {
+.statistics-graph__50-filling {
     width: 100%;
     height: 30px;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 }
 
-.statistics-graph__graph_25-filled {
+.statistics-graph__25-filling {
     width: 100%;
     height: 10px;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
