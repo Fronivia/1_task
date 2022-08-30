@@ -1,0 +1,132 @@
+@import "../UI/paragraphText.css";
+
+.training-program {
+    padding-top: 243px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.program-logo {
+    transform: rotate(-180deg)
+}
+
+.program-title {
+    padding-top: 76px;
+
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.program-text {
+    padding-top: 30px;
+    width: 411px;
+
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+
+    opacity: 0.5;
+}
+
+.training-plan {
+    display: flex;
+    width: 750px;
+    padding: 80px 0 0 84px;
+}
+
+.plan-column_left {
+    padding-right: 60px;
+}
+
+.plan-column__item + .plan-column__item {
+    margin-top: 95px;
+}
+
+.plan-column__item_left:first-child {
+    margin-top: 10px;
+}
+
+.plan-column__week {
+    font-size: 14px;
+    line-height: 160%;
+
+    opacity: 0.5;
+
+    margin-bottom: 15px;
+}
+
+
+.plan-column__week_left {
+    text-align: right;
+}
+
+.plan-column__description {
+    position: relative;
+
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.plan-column__description_left {
+    text-align: right;
+}
+
+.plan-column__description_right {
+    text-align: left;
+}
+
+.plan-column__description_left::after {
+    display: block;
+    content: '';
+
+    position: absolute;
+    top: 11px;
+    right: -60px;
+
+    width: 40px;
+    height: 1px;
+
+    opacity: 0.3;
+
+    background-color: #FFF
+}
+
+.training-plan__separator {
+    width: 6px;
+    height: 677px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.plan-column__week_right {
+    text-align: left;
+}
+
+.plan-column_right {
+    padding-left: 76px;
+}
+
+.plan-column__item_right:first-child {
+    margin-top: 99px;
+}
+
+.plan-column__description_right::before {
+    display: block;
+    content: '';
+
+    position: absolute;
+    top: 11px;
+    left: -77px;
+
+    width: 40px;
+    height: 1px;
+
+    opacity: 0.3;
+
+    background-color: #FFF
+}

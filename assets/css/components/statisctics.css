@@ -1,0 +1,111 @@
+@import "job.css";
+
+.statistics {
+    padding-top: 270px;
+}
+
+.statistics-description {
+    padding-left: 5px;
+}
+
+.statistics-description__container {
+    display: flex;
+    padding-left: 7px;
+}
+
+.statistics-description__logo {
+    width: 90px;
+    height: 45px;
+
+    transform: rotate(45deg);
+}
+
+.statistics-description__title {
+    padding-left: 24px;
+    padding-top: 5px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.statistics-description__text {
+    width: 411px;
+    padding-top: 51px;
+
+    font-size: 16px;
+    line-height: 160%;
+
+    opacity: 0.5;
+}
+
+.statistics-graph {
+    display: flex;
+
+    padding-top: 80px;
+}
+
+.statistics-graph__data {
+    min-width: 324px;
+}
+
+.statistics-graph__title {
+    padding-bottom: 20px;
+
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.statistics-graph__graph {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics-graph__full-filling {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.statistics-graph__75-filling {
+    width: 100%;
+    height: 75%;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.statistics-graph__50-filling {
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.statistics-graph__25-filling {
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.statistics-graph__text {
+    padding-top: 35px;
+    width: 306px;
+
+    font-size: 14px;
+    line-height: 160%;
+
+    opacity: 0.5;
+}

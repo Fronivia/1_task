@@ -1,0 +1,104 @@
+@import "../UI/paragraphText.css";
+@import "../UI/gradientButton.css";
+
+.footer {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-title {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.footer-text {
+    padding: 30px 0 60px;
+    width: 411px;
+
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+
+    opacity: 0.5;
+}
+
+.subscribe {
+    position: relative;
+    width: 500px;
+    height: 44px;
+    display: flex;
+}
+
+.subscribe-input {
+    width: 353px;
+    height: 100%;
+    outline: none;
+    padding-left: 30px;
+
+    background: grey;
+    opacity: 0.25;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.subscribe-input, .subscribe-input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.subscribe-button {
+    position: absolute;
+    top: 0;
+    left: 336px;
+}
+
+.media-links {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-links__container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    outline: none;
+    text-decoration: none;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.media-links__container + .media-links__container {
+    margin-left: 30px;
+}
+
+.ad {
+    padding-top: 50px;
+
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+
+    opacity: 0.8;
+}

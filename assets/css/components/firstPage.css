@@ -1,0 +1,184 @@
+@import "../UI/gradientButton.css";
+@import "../UI/paragraphText.css";
+
+.introduction {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url("/assets/background/headerBackground.png");
+    background-color: black;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+.promotion {
+    width: 100%;
+    height: 748px;
+
+    padding: 188px 668px 218px 312px;
+}
+
+.promotion__title {
+    margin-bottom: 50px;
+
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.timer {
+    display: flex;
+}
+
+.timer__count-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+
+    background: #121212;
+}
+
+.timer__count-container + .timer__count-container {
+    margin-left: 30px;
+}
+
+.timer__count {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.timer__date {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.4;
+}
+
+
+.about-course {
+    width: 100%;
+    height: 130px;
+    padding: 0 312px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #121212;
+}
+
+
+.course-button {
+
+}
+
+.course-info {
+    width: 251px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.course-data {
+    display: flex;
+
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.course-data__query {
+    opacity: 0.4;
+}
+
+.course-info__data {
+    justify-content: space-between;
+}
+
+.course-info__data + .course-info__data {
+    margin-top: 10px;
+}
+
+.course-progress {
+    height: 100%;
+    padding-top: 35px;
+    padding-bottom: 28px;
+}
+
+.course-progress__data {
+    margin-right: 30px;
+}
+
+.course-progress__loader {
+    padding-top: 10px;
+}
+
+.loader__scale {
+    position: relative;
+
+    width: 714px;
+    height: 6px;
+
+    background: #FFFFFF;
+}
+
+.loader__progress {
+    width: 440px;
+    height: 100%;
+
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+
+.loader__scale::before {
+    position: absolute;
+    top: 11px;
+    left: 0;
+    display: block;
+    content: '0';
+
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+    opacity: 0.4;
+}
+
+.loader__scale::after {
+    position: absolute;
+    top: 11px;
+    right: 0;
+    display: block;
+    content: '1 000 000₽';
+
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+    opacity: 0.4;
+}

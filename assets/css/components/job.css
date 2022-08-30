@@ -1,0 +1,63 @@
+@import "../UI/paragraphText.css";
+
+.job {
+    padding-top: 200px;
+}
+
+.job__title {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.job-data {
+    display: flex;
+    justify-content: center;
+    padding-top: 118px;
+}
+
+.job-preferences {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 358px;
+}
+
+.job-preferences + .job-preferences {
+    margin-left: 82px;
+}
+
+.job-preferences__logo {
+    padding-bottom: 62px;
+}
+
+.job-preferences__title {
+    width: 100%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.job-preferences__description {
+    width: 100%;
+    padding-top: 30px;
+
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+
+    opacity: 0.8;
+}
