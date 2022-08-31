@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
 
-    background-image: url("/assets/background/headerBackground.png");
+    background-image: url("../../background/headerBackground.png");
     background-color: black;
     background-position: right;
     background-repeat: no-repeat;
